@@ -4,7 +4,7 @@ Code and data accompanying:
 
 > Chen-Ting Lin and Chin-Lung Chou, *Recovering Nonlinear Local-Volatility Structure from Cross-Sectionally Sparse Equity Options via Physics-Informed Neural Networks*. Submitted to *Chaos, Solitons & Fractals*.
 
-[![DOI](https://zenodo.org/badge/DOI/[ZENODO-DOI].svg)](https://doi.org/[ZENODO-DOI])
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20177970.svg)](https://doi.org/10.5281/zenodo.20177970)
 
 ---
 
@@ -122,8 +122,8 @@ If you use this code or data, please cite the paper (BibTeX entry will be added 
   title        = {TSM Dupire-PINN: Code and Data},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {[ZENODO-DOI]},
-  url          = {https://github.com/[GITHUB-USERNAME]/tsm-dupire-pinn}
+  doi          = {10.5281/zenodo.20177970},
+  url          = {https://github.com/d26521082/tsm-dupire-pinn}
 }
 ```
 
@@ -134,6 +134,6 @@ If you use this code or data, please cite the paper (BibTeX entry will be added 
 
 ## Contact
 
-Chen-Ting Lin — Department of Economics, National Taiwan University — `[email]`
+Chen-Ting Lin — Department of Economics, National Taiwan University — d26521082@gmail.com
 
 Corresponding author: Chin-Lung Chou — Management Undergraduate Program, National Taiwan University of Science and Technology.
