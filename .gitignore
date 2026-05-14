@@ -1,0 +1,90 @@
+# =====================================================================
+# Manuscript and LaTeX (kept in private working directory, not deposited)
+# =====================================================================
+main.tex
+main.pdf
+main.aux
+main.log
+main.out
+main.bbl
+main.blg
+main.spl
+main.toc
+main.fls
+main.fdb_latexmk
+main.synctex.gz
+references.bib
+results.tex
+highlights.txt
+
+# =====================================================================
+# Archived previous draft (not part of deposit)
+# =====================================================================
+archive/
+
+# =====================================================================
+# Reference PDFs (copyrighted — never push to a public repository)
+# =====================================================================
+reference/
+ScienceDirect_articles/
+
+# =====================================================================
+# Derived outputs (reproducible by running the analysis scripts;
+# excluded to keep the repo lean. Remove these lines if you want to
+# include a frozen snapshot of results.)
+# =====================================================================
+data/
+figures/
+
+# =====================================================================
+# Python
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# JAX / cache
+.jax_cache/
+
+# =====================================================================
+# IDE / editor / OS
+# =====================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.Rhistory
+
+# =====================================================================
+# Claude Code working files
+# =====================================================================
+CLAUDE.md
+.claude/
