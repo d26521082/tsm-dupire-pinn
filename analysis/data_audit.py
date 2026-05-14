@@ -229,7 +229,7 @@ def main() -> None:
     ax[1].set_ylabel("T")
     ax[1].set_title("IV surface points")
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "iv_overview.png", dpi=120)
+    plt.savefig(FIG_DIR / "iv_overview.png", dpi=600)
     plt.close()
     print(f"saved: {FIG_DIR / 'iv_overview.png'}")
 

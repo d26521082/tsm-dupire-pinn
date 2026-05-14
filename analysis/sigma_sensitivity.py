@@ -133,7 +133,7 @@ def main() -> None:
     ax.grid(True, alpha=0.3)
     ax.legend()
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "alpha_L_vs_sigma_ref.png", dpi=140)
+    plt.savefig(FIG_DIR / "alpha_L_vs_sigma_ref.png", dpi=600)
     plt.close()
     print(f"saved: {FIG_DIR}/alpha_L_vs_sigma_ref.png")
 

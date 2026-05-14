@@ -211,7 +211,7 @@ def main() -> None:
     ax[1].set_title("IV surface (cleaned points)")
     plt.tight_layout()
     out_fig = FIG_DIR / "clean_iv.png"
-    plt.savefig(out_fig, dpi=120)
+    plt.savefig(out_fig, dpi=600)
     plt.close()
     print(f"saved: {out_fig}")
 

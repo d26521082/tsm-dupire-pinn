@@ -229,7 +229,7 @@ def main() -> None:
     ax[1].set_xlabel("K"); ax[1].set_ylabel("T")
     ax[1].set_title("Ensemble uncertainty")
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "surface_ensemble.png", dpi=140)
+    plt.savefig(FIG_DIR / "surface_ensemble.png", dpi=600)
     plt.close()
 
     # σ_loc smiles per maturity
@@ -248,7 +248,7 @@ def main() -> None:
     ax.set_title("Local-volatility smile per maturity (with ensemble band)")
     ax.legend(fontsize=7, ncol=2)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "smile_per_T.png", dpi=140)
+    plt.savefig(FIG_DIR / "smile_per_T.png", dpi=600)
     plt.close()
 
     # ATM term structure
@@ -260,7 +260,7 @@ def main() -> None:
     ax.set_title("ATM local-vol term structure")
     ax.legend()
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "atm_term_structure.png", dpi=140)
+    plt.savefig(FIG_DIR / "atm_term_structure.png", dpi=600)
     plt.close()
 
     # Wing exponents per T
@@ -284,7 +284,7 @@ def main() -> None:
     ax2.set_ylim(0, 1.05)
     ax2.legend(loc="lower right", fontsize=7)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "wing_exponents.png", dpi=140)
+    plt.savefig(FIG_DIR / "wing_exponents.png", dpi=600)
     plt.close()
 
     # Skew strength
@@ -296,7 +296,7 @@ def main() -> None:
     ax.set_title("Leverage skew strength vs maturity")
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "skew_term_structure.png", dpi=140)
+    plt.savefig(FIG_DIR / "skew_term_structure.png", dpi=600)
     plt.close()
 
     print(f"saved: {FIG_DIR}/*.png")

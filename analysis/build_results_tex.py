@@ -223,7 +223,7 @@ def main() -> None:
             f"LOMO RMSE ${fmt(pinn['rmse'])} (PINN) vs ${fmt(ah['rmse'])} (AH), ${fmt(svi['rmse'])} (SVI).",
             "Statistically tied with Andreasen-Huge; significantly better than SVI.",
             "Local-volatility left wing follows a power-law with exponent in [1, 3].",
-            "Cross-sectional characterisation of equity-options skew structure under sparsity.",
+            "PINN-recovered local volatility agrees with per-option implied vol at rho = 0.76.",
         ]
         for i, h in enumerate(highlights):
             flag = "  [OK]" if len(h) <= 85 else f"  [WARN: {len(h)} chars > 85]"

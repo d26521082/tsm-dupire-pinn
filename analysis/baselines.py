@@ -233,7 +233,7 @@ def main() -> None:
     ax.set_title("SVI per-maturity slice fits (lines) vs market IV (dots)")
     ax.legend(fontsize=7, ncol=2)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "svi_slices.png", dpi=120)
+    plt.savefig(FIG_DIR / "svi_slices.png", dpi=600)
     plt.close()
     print(f"saved: {FIG_DIR / 'svi_slices.png'}")
 

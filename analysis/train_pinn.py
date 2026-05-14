@@ -325,7 +325,7 @@ def plot_loss(history, out_path):
     ax.set_title("PINN training history")
     ax.legend()
     plt.tight_layout()
-    plt.savefig(out_path, dpi=120)
+    plt.savefig(out_path, dpi=600)
     plt.close()
 
 
@@ -355,7 +355,7 @@ def plot_surfaces(model, data, norm, out_dir):
     ax[1].set_xlabel("K")
     ax[1].set_ylabel("T")
     plt.tight_layout()
-    plt.savefig(out_dir / "surfaces.png", dpi=120)
+    plt.savefig(out_dir / "surfaces.png", dpi=600)
     plt.close()
 
     # residuals at data points
@@ -372,7 +372,7 @@ def plot_surfaces(model, data, norm, out_dir):
     ax.set_ylabel("T")
     ax.set_title("In-sample residuals C_pred - C_obs")
     plt.tight_layout()
-    plt.savefig(out_dir / "residuals.png", dpi=120)
+    plt.savefig(out_dir / "residuals.png", dpi=600)
     plt.close()
 
 

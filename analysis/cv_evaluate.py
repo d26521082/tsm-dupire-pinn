@@ -281,7 +281,7 @@ def plot_results(cv_df: pd.DataFrame, summary: dict, S: float) -> None:
     axes[0].set_ylabel("T (held out)")
     plt.colorbar(sc, ax=axes, label="residual ($)")
     fig.suptitle("LOMO out-of-sample residuals (held-out maturity per fold)")
-    plt.savefig(FIG_DIR / "lomo_residuals.png", dpi=120, bbox_inches="tight")
+    plt.savefig(FIG_DIR / "lomo_residuals.png", dpi=600, bbox_inches="tight")
     plt.close()
 
     fig, ax = plt.subplots(figsize=(12, 5))
@@ -301,7 +301,7 @@ def plot_results(cv_df: pd.DataFrame, summary: dict, S: float) -> None:
     ax.set_title("Per-fold out-of-sample RMSE")
     ax.legend()
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "lomo_rmse_per_fold.png", dpi=120)
+    plt.savefig(FIG_DIR / "lomo_rmse_per_fold.png", dpi=600)
     plt.close()
 
 

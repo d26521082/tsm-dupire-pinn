@@ -75,7 +75,7 @@ def main() -> None:
     ax.legend(fontsize=8)
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "iv_vs_loc_consistency.png", dpi=140)
+    plt.savefig(FIG_DIR / "iv_vs_loc_consistency.png", dpi=600)
     plt.close()
     print(f"saved: {FIG_DIR / 'iv_vs_loc_consistency.png'}")
 

@@ -180,7 +180,7 @@ def main() -> None:
     ax.legend()
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "alpha_L_T_adaptive_vs_bootstrap.png", dpi=140)
+    plt.savefig(FIG_DIR / "alpha_L_T_adaptive_vs_bootstrap.png", dpi=600)
     plt.close()
 
     # window sensitivity overlay
@@ -194,7 +194,7 @@ def main() -> None:
     ax.legend()
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig(FIG_DIR / "alpha_L_window_sensitivity.png", dpi=140)
+    plt.savefig(FIG_DIR / "alpha_L_window_sensitivity.png", dpi=600)
     plt.close()
     print(f"saved: {FIG_DIR}/*.png")
 
